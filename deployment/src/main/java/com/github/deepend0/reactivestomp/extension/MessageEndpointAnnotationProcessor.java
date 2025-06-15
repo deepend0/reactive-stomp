@@ -3,7 +3,6 @@ package com.github.deepend0.reactivestomp.extension;
 import com.github.deepend0.reactivestomp.messageendpoint.MessageEndpoint;
 import com.github.deepend0.reactivestomp.messageendpoint.MessageEndpointMethodWrapper;
 import com.github.deepend0.reactivestomp.messageendpoint.MessageEndpointRegistry;
-import io.quarkus.Generated;
 import io.quarkus.deployment.GeneratedClassGizmoAdaptor;
 import io.quarkus.deployment.annotations.BuildProducer;
 import io.quarkus.deployment.annotations.BuildStep;
@@ -17,6 +16,7 @@ import io.quarkus.gizmo.MethodCreator;
 import io.quarkus.gizmo.MethodDescriptor;
 import io.quarkus.gizmo.ResultHandle;
 import io.quarkus.gizmo.Type;
+import jakarta.annotation.Generated;
 import jakarta.annotation.PostConstruct;
 import jakarta.enterprise.context.ApplicationScoped;
 

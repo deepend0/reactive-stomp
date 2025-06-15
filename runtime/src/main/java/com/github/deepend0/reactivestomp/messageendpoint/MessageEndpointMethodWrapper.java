@@ -36,6 +36,10 @@ public class MessageEndpointMethodWrapper<I, O> {
         return methodWrapper;
     }
 
+    public Class<I> getParameterType() {
+        return parameterType;
+    }
+
     public Multi<byte[]> call(Serde serde, byte [] bytes) {
         try {
             Object result = methodWrapper.apply(deserialize(serde, bytes));
