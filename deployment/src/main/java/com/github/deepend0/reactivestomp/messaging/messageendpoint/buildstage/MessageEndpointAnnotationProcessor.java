@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.messageendpoint.build;
+package com.github.deepend0.reactivestomp.messaging.messageendpoint.buildstage;
 
 import com.github.deepend0.reactivestomp.messaging.messageendpoint.MessageEndpoint;
 import com.github.deepend0.reactivestomp.messaging.messageendpoint.MessageEndpointMethodWrapper;
@@ -32,7 +32,7 @@ import org.objectweb.asm.Opcodes;
 public class MessageEndpointAnnotationProcessor {
 
   private static final String REGISTRY_CLASS_NAME =
-      "com.github.deepend0.reactivestomp.messageendpoint.MessageEndpointRegistryImpl";
+          MessageEndpoint.class.getPackageName() + "." + "MessageEndpointRegistryImpl";
 
   @BuildStep
   public void collectMessageEndpoints(
@@ -332,7 +332,7 @@ public class MessageEndpointAnnotationProcessor {
   }
 
   private static String getWrapperClassName(String className, String methodName) {
-    return "com.github.deepend0.reactivestomp.messageendpoint." + className + "_" + methodName + "Wrapper";
+    return MessageEndpoint.class.getPackageName() + "." + className + "_" + methodName + "Wrapper";
   }
 
   private static String getWrapperFieldName(String className, String methodName) {

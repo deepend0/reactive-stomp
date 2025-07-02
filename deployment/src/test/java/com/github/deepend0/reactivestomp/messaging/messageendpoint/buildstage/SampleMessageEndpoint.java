@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.messageendpoint.build;
+package com.github.deepend0.reactivestomp.messaging.messageendpoint.buildstage;
 
 import com.github.deepend0.reactivestomp.messaging.messageendpoint.MessageEndpoint;
 import io.smallrye.mutiny.Multi;

@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.messageendpoint.build;
+package com.github.deepend0.reactivestomp.messaging.messageendpoint.buildstage;
 
 import io.quarkus.builder.item.MultiBuildItem;
 import org.jboss.jandex.ClassInfo;
