@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.test.integrationtest;
+package com.github.deepend0.reactivestomp.test.integrationtest.websocket;
 
 import com.github.deepend0.reactivestomp.test.HeartbeatManager;
 import com.github.deepend0.reactivestomp.test.StompWebSocketClient;
