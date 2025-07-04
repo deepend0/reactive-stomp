@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.test.broker;
+package com.github.deepend0.reactivestomp.test.messaging.broker;
 
 import com.github.deepend0.reactivestomp.test.stompprocessor.FrameTestUtils;
 import com.github.deepend0.reactivestomp.websocket.ExternalMessage;
