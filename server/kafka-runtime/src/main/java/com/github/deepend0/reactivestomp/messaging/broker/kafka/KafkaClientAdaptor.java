@@ -1,4 +1,4 @@
-package com.github.deepend0.reactivestomp.messaging.broker.relay.kafka;
+package com.github.deepend0.reactivestomp.messaging.broker.kafka;
 
 import com.github.deepend0.reactivestomp.messaging.broker.MessageBrokerClient;
 import com.github.deepend0.reactivestomp.messaging.broker.simplebroker.Subscriber;

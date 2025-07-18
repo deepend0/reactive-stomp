@@ -11,6 +11,8 @@ pluginManagement {
 
 rootProject.name="reactive-stomp-server-parent"
 
-include("reactive-stomp-server", "reactive-stomp-server-deployment", "tests")
+include("reactive-stomp-server", "reactive-stomp-server-deployment", "tests", "reactive-stomp-kafka", "reactive-stomp-kafka-deployment")
 project(":reactive-stomp-server").projectDir = file("./runtime")
 project(":reactive-stomp-server-deployment").projectDir = file("./deployment")
+project(":reactive-stomp-kafka").projectDir = file("./kafka-runtime")
+project(":reactive-stomp-kafka-deployment").projectDir = file("./kafka-deployment")

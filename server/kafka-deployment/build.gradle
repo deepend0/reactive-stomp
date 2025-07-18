@@ -1,0 +1,7 @@
+dependencies {
+    implementation platform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}")
+    implementation project(":reactive-stomp-server-deployment")
+    implementation "io.quarkus:quarkus-messaging-kafka-deployment"
+
+    testImplementation "io.quarkus:quarkus-junit5-internal"
+}
